@@ -15,22 +15,34 @@
   h1, h2 {
     color: #1a73e8;
   }
+  section {
+    margin-bottom: 50px;
+  }
   video {
     display: block;
     margin: 15px 0;
     border: 1px solid #ccc;
     border-radius: 8px;
   }
+  video:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+  }
   ul {
     margin-left: 20px;
   }
-  a {
-    color: #1a73e8;
-    text-decoration: none;
-    font-weight: bold;
+  a.button {
+    display:inline-block;
+    padding:10px 20px;
+    background-color:#1a73e8;
+    color:white;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:bold;
+    margin-top:10px;
   }
-  a:hover {
-    text-decoration: underline;
+  a.button:hover {
+    background-color:#155ab6;
   }
   hr {
     margin: 30px 0;
@@ -45,6 +57,7 @@
 
 <hr>
 
+<section>
 <h2>Course 1: Introduction to OpenModelica</h2>
 <video width="600" autoplay loop muted>
   <source src="Demo1.mp4" type="video/mp4">
@@ -58,10 +71,10 @@
 <li>Defining parameters, variables, and equations</li>
 <li>Running dynamic simulations and analyzing results</li>
 </ul>
-<p><a href="https://www.udemy.com/course/introduction-to-openmodelica/?referralCode=F0E41928907C6A815403">👉 Enroll on Udemy</a></p>
+<p><a href="https://www.udemy.com/course/introduction-to-openmodelica/?referralCode=F0E41928907C6A815403" class="button">👉 Enroll on Udemy</a></p>
+</section>
 
-<hr>
-
+<section>
 <h2>Course 2: Advanced OpenModelica</h2>
 <video width="600" autoplay loop muted>
   <source src="Demo2.mp4" type="video/mp4">
@@ -76,8 +89,8 @@
 <li>Applying core concepts like parameters, units, and interfaces</li>
 <li>Running simulations and analyzing results</li>
 </ul>
-<p><a href="https://www.udemy.com/course/advanced-openmodelica-modular-system-modeling/?referralCode=BF70D5B4E9F27B8F36E2">👉 Enroll on Udemy</a></p>
+<p><a href="https://www.udemy.com/course/advanced-openmodelica-modular-system-modeling/?referralCode=BF70D5B4E9F27B8F36E2" class="button">👉 Enroll on Udemy</a></p>
+</section>
 
 </body>
 </html>
-
