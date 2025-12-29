@@ -145,39 +145,31 @@
     </p>
   </section>
 
- <section style="text-align:center; margin-bottom:30px;">
+
+<section id="comments" style="text-align:center; margin-bottom:30px;">
   <h3>Comments</h3>
-  <form action="https://formspree.io/f/xpqzbane" method="POST"
-        style="display:inline-block; text-align:left; max-width:400px; width:100%;">
 
-    <label for="cname">Name:</label><br>
-    <input type="text" id="cname" name="name" required
-           style="width:100%; padding:5px; margin-bottom:10px;"><br>
+  <!-- Existing comments -->
+  <p><strong>John Doe:</strong> It is the message</p>
+  <p><strong>Jane Smith:</strong> Another comment</p>
 
-    <label for="cemail">Email :</label><br>
-    <input type="email" id="cemail" name="email" required
-           style="width:100%; padding:5px; margin-bottom:10px;"><br>
-
-    <label for="cmessage">Comment:</label><br>
-    <textarea id="cmessage" name="message" required
-              style="width:100%; padding:5px; margin-bottom:10px;"></textarea><br>
-
+  <!-- Inline comment form -->
+  <form action="https://formspree.io/f/xpqzbane" method="POST" style="max-width:400px; margin:auto;">
+    <input type="text" name="name" placeholder="Your name" required style="width:100%; margin-bottom:5px; padding:5px;">
+    <textarea name="message" placeholder="Your comment" required style="width:100%; margin-bottom:5px; padding:5px;"></textarea>
     <input type="hidden" name="subject" value="Website Comment">
-
-    <button type="submit"
-      style="padding:8px 15px; background-color:#1a73e8; color:white;
-             border:none; border-radius:4px; cursor:pointer;">
-      Submit Comment
+    <button type="submit" style="padding:6px 12px; background-color:#1a73e8; color:white; border:none; border-radius:4px; cursor:pointer;">
+      Submit
     </button>
   </form>
 </section>
-
 
   <p style="text-align:center; font-size:0.85em; color:#777;">© 2025 Waqas | OpenModelica Courses</p>
 </footer>
 
 </body>
 </html>
+
 
 
 
