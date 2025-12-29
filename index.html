@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="UTF-8">
 <meta name="google-site-verification" content="hTU1wWqvPAJsRl_fSRedMP1rftSjjFPIrwnUJWBF6YI" />
 <meta name="description" content="Learn OpenModelica modeling and simulation with beginner and advanced courses. Gain practical skills in OMEdit, modular system modeling, and scalable simulations.">
-<meta charset="UTF-8">
-<title>OpenModelica Courses</title>
+<meta name="keywords" content="OpenModelica, OMEdit, system modeling, simulation, engineering courses, modular modeling, CFD, thermal management">
+<title>OpenModelica Courses | Hafiz M. Waqas</title>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SLLZKEKFT5"></script>
@@ -13,6 +14,34 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-SLLZKEKFT5');
+</script>
+
+<!-- Structured Data for Courses -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Introduction to OpenModelica",
+  "description": "Learn OpenModelica with beginner and advanced courses using OMEdit and practical examples.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Hafiz M. Waqas",
+    "sameAs": "https://www.linkedin.com/in/hafiz-muhammad-waqas-04730a2a/"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Advanced OpenModelica",
+  "description": "Master advanced OpenModelica skills with modular system modeling, multiple instances, and scalable designs.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Hafiz M. Waqas",
+    "sameAs": "https://www.linkedin.com/in/hafiz-muhammad-waqas-04730a2a/"
+  }
+}
 </script>
 
 <style>
@@ -35,32 +64,33 @@
     margin: 15px 0;
     border: 1px solid #ccc;
     border-radius: 8px;
+    transition: transform 0.3s;
   }
   video:hover {
     transform: scale(1.05);
-    transition: transform 0.3s;
   }
   ul {
     margin-left: 20px;
   }
   a.button {
     display:inline-block;
-    padding:10px 20px;
+    padding:12px 24px;
     background-color:#1a73e8;
     color:white;
-    border-radius:5px;
+    border-radius:6px;
     text-decoration:none;
     font-weight:bold;
     margin-top:10px;
+    transition: transform 0.2s, background-color 0.2s;
   }
   a.button:hover {
     background-color:#155ab6;
+    transform: scale(1.05);
   }
   hr {
     margin: 30px 0;
     border: 0.5px solid #ccc;
   }
-  /* Contact form */
   .contact-form, .comment-form {
     display:inline-block;
     text-align:left;
@@ -83,11 +113,11 @@
     border:none;
     border-radius:4px;
     cursor:pointer;
+    transition: background-color 0.2s;
   }
   button:hover {
     background-color:#155ab6;
   }
-  /* Comment section */
   #comments {
     border-top: 1px solid #ccc;
     padding-top: 30px;
@@ -99,7 +129,6 @@
     border-radius: 4px;
     text-align: left;
   }
-  /* Link button */
   .linkedin-button {
     color:white;
     background-color:#1a73e8;
@@ -108,6 +137,7 @@
     text-decoration:none;
     font-weight:bold;
     display:inline-block;
+    transition: background-color 0.2s;
   }
   .linkedin-button:hover {
     background-color:#155ab6;
@@ -125,7 +155,7 @@
 <main>
   <section aria-labelledby="course1">
     <h2 id="course1">Course 1: Introduction to OpenModelica</h2>
-    <video width="600" autoplay loop muted controls>
+    <video width="600" autoplay loop muted controls loading="lazy">
       <source src="Demo1.mp4" type="video/mp4">
       Sorry, your browser does not support this video.
     </video>
@@ -142,7 +172,7 @@
 
   <section aria-labelledby="course2">
     <h2 id="course2">Course 2: Advanced OpenModelica</h2>
-    <video width="600" autoplay loop muted controls>
+    <video width="600" autoplay loop muted controls loading="lazy">
       <source src="Demo2.mp4" type="video/mp4">
       Sorry, your browser does not support this video.
     </video>
@@ -197,14 +227,9 @@
     </p>
   </section>
 
-  <!-- Comment Section -->
   <section id="comments">
     <h3>Comments</h3>
-
-    <!-- Existing comments -->
     <div class="comment"><strong>Admin:</strong> You can add your comment here</div>
-
-    <!-- Inline comment form -->
     <form class="comment-form" action="https://formspree.io/f/xpqzbane" method="POST">
       <input type="text" name="name" placeholder="Your name" required>
       <textarea name="message" placeholder="Your comment" required></textarea>
