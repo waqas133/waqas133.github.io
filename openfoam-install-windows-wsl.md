@@ -8,12 +8,6 @@ Beginner-friendly installation notes for installing OpenFOAM 13 on Windows 10/11
 
 **CMD** is also a Windows terminal, but it is different from PowerShell. In these notes, use PowerShell whenever a step says **PowerShell**.
 
-**Ubuntu terminal / Bash** is the Linux terminal inside WSL. After Ubuntu is installed, open it from the Start menu or by running this command from PowerShell:
-
-```bash
-wsl -d Ubuntu-22.04
-```
-
 ## A) Windows side — PowerShell as Administrator
 
 ### 1. Install WSL with Ubuntu 22.04
@@ -28,6 +22,19 @@ This installs WSL and Ubuntu 22.04.
 
 Restart Windows after the installation if requested.
 
+After the installation, Ubuntu may ask you to create a Linux username and password. This username and password are for Ubuntu/WSL and do not need to be the same as your Windows login.
+
+### 2. Open Ubuntu / WSL terminal
+
+**Use:** PowerShell
+
+```powershell
+wsl -d Ubuntu-22.04
+```
+
+Alternatively, open **Ubuntu 22.04** from the Windows Start menu.
+
+**Ubuntu terminal / Bash** is the Linux terminal inside WSL. The next commands should be run inside this Ubuntu/WSL terminal.
 After the installation, Ubuntu may ask you to create a Linux username and password. This username and password are for Ubuntu/WSL and do not need to be the same as your Windows login.
 
 ## B) Linux side — Ubuntu terminal / Bash
