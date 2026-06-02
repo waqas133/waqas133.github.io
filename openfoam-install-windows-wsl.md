@@ -35,6 +35,7 @@ wsl -d Ubuntu-22.04
 Alternatively, open **Ubuntu 22.04** from the Windows Start menu.
 
 **Ubuntu terminal / Bash** is the Linux terminal inside WSL. The next commands should be run inside this Ubuntu/WSL terminal.
+
 After the installation, Ubuntu may ask you to create a Linux username and password. This username and password are for Ubuntu/WSL and do not need to be the same as your Windows login.
 
 ## B) Linux side — Ubuntu terminal / Bash
