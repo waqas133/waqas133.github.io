@@ -40,16 +40,23 @@ Take your modeling skills to the next level with modular and scalable system des
 ---
 
 ## Course 3: EV Battery Pack Simulation in Simscape: Thermal Management
-Practical system-level thermal modeling of EV battery packs.
+A multi-domain, project-based course: build one working EV battery model that couples electrical, thermal, hydraulic, and control behaviour, scaling from a single cell to a full pack.
 
 **Who this course is for:**  
-- Engineers and students working on battery systems or thermal management  
-- Simscape users wanting practical battery modeling experience  
+- Battery, automotive, and simulation engineers wanting practical Simscape workflows  
+- MATLAB/Simulink users learning multi-domain physical modeling  
+- Students and researchers working on battery packs, cooling systems, or energy storage  
 
 **Skills you’ll gain:**  
-- Modeling battery pack heat generation  
-- Simulating cooling behaviour  
-- Analyzing thermal response under different operating conditions  
+- Simscape fundamentals: physical vs. signal modeling, solver setup, logging and post-processing  
+- Battery cell modeling, including ECM parameter estimation in MATLAB  
+- Charge/discharge current control and variable drive/load profiles via lookup tables  
+- Electro-thermal-hydraulic coupling: integrating liquid cooling into the cell model  
+- Building a parameterized 2P subsystem and scaling to a 12S2P module and full pack  
+- PI controller for closed-loop battery thermal management  
+- Reusable, parameter-driven model structure with MATLAB scripts  
+
+**Includes:** Simscape model files for each stage (cell, module, pack), MATLAB parameter scripts, practice exercises. About 4 hours.
 
 👉 [Enroll on Simwize](https://simwize.com/courses/ev-battery-pack-simulation-in-simscape-thermal-management/)
 
