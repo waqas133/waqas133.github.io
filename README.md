@@ -1,6 +1,6 @@
-# OpenModelica Courses
+# Engineering Simulation Courses
 
-Learn practical OpenModelica modeling and simulation skills, from beginner fundamentals to advanced system modeling.
+Learn practical OpenModelica and Simscape modeling and simulation skills, from beginner fundamentals to advanced system modeling.
 
 ---
 
@@ -39,9 +39,25 @@ Take your modeling skills to the next level with modular and scalable system des
 
 ---
 
+## Course 3: EV Battery Pack Simulation in Simscape: Thermal Management
+Practical system-level thermal modeling of EV battery packs.
+
+**Who this course is for:**  
+- Engineers and students working on battery systems or thermal management  
+- Simscape users wanting practical battery modeling experience  
+
+**Skills you’ll gain:**  
+- Modeling battery pack heat generation  
+- Simulating cooling behaviour  
+- Analyzing thermal response under different operating conditions  
+
+👉 [Enroll on Simwize](https://simwize.com/courses/ev-battery-pack-simulation-in-simscape-thermal-management/)
+
+---
+
 **Why learn with these courses?**  
-- Hands-on approach to OpenModelica  
+- Hands-on approach to OpenModelica and Simscape  
 - Focus on skills that can be applied to any system  
 - Step-by-step guidance from basics to advanced techniques  
 
-Start building your OpenModelica expertise today!
+Start building your simulation expertise today!
