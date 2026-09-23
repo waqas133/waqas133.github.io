@@ -17,7 +17,7 @@ Build a strong foundation and start creating your own simulations.
 - Defining parameters, variables, and equations  
 - Running dynamic simulations and analyzing results  
 
-👉 [Enroll on Udemy](https://www.udemy.com/course/introduction-to-openmodelica/?referralCode=F0E41928907C6A815403)
+👉 [Enroll on Simwize](https://simwize.com/courses/getting-started-with-openmodelica-through-practical-examples/)
 
 ---
 
@@ -35,7 +35,7 @@ Take your modeling skills to the next level with modular and scalable system des
 - Running simulations and analyzing results
 - Exporting results as CSV data
 
-👉 [Enroll on Udemy](https://www.udemy.com/course/advanced-openmodelica-modular-system-modeling/?referralCode=BF70D5B4E9F27B8F36E2)
+👉 [Enroll on Simwize](https://simwize.com/courses/advanced-openmodelica-modular-system-modeling/)
 
 ---
 
